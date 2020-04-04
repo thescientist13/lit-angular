@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { LitComponent } from './lit-component/lit.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LitComponent
   ],
   imports: [
     BrowserModule
@@ -13,4 +15,5 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
